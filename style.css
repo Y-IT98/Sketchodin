@@ -1,0 +1,47 @@
+body{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color:  #2C2C54;
+   
+}
+.optionsDiv{
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   
+   margin: 2rem;
+  
+
+}
+.sketcharea{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height:  600px;
+ 
+   
+}
+.prompt,.reset{
+   display: flex;
+   justify-content: flex-start;
+   margin: 1rem;
+   padding: 5px;
+   
+}
+.row{
+   
+   flex-direction: column;
+   
+   
+}
+.box{
+   border: 1px solid black;
+   /* width: 25px;
+   height: 25px; */
+   /* flex: 0 1 auto; */
+   background-color: steelblue;
+   box-sizing: border-box;
+
+}
