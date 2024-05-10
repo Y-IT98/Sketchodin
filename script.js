@@ -79,11 +79,13 @@ function createGrid(x){
         let boxSize = gridSize/(x)
         let box = document.createElement('div');
         box.className = "box"
+        //Math necessary for scaling of the boxes within the div to ensure it doesnt grow past the container 
+
         box.style.height =`${boxSize}px`
         box.style.width = `${boxSize}px`
         row.appendChild(box)
         box.addEventListener('mouseover',()=>{
-          box.style.backgroundColor = '#a2361f'
+          box.style.backgroundColor = '#6B2737'
 
 
         })
